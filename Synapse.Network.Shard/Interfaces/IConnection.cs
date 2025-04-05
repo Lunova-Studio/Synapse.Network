@@ -1,5 +1,5 @@
 ﻿
-namespace Synapse.Network.Shard.Interfaces;
+namespace Synapse.Network.Shared.Interfaces;
 
 //public interface IConnection : IDisposable {
 //    Channel GetChannel(string name);

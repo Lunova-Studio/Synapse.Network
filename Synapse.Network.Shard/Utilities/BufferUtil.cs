@@ -1,4 +1,4 @@
-﻿namespace Synapse.Network.Shard.Utilities;
+﻿namespace Synapse.Network.Shared.Utilities;
 
 public static class BufferUtil {
     public static bool CheckBufferArgs(byte[] buffer, int offset, int count) {

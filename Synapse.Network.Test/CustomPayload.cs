@@ -1,5 +1,5 @@
 ﻿using Synapse.Network.Extensions;
-using Synapse.Network.Shard.Interfaces;
+using Synapse.Network.Shared.Interfaces;
 
 namespace Synapse.Network.Test;
 

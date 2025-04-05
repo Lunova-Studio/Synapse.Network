@@ -1,6 +1,6 @@
-﻿using Synapse.Network.Shard.Interfaces;
+﻿using Synapse.Network.Shared.Interfaces;
 
-namespace Synapse.Network.Shard.Events;
+namespace Synapse.Network.Shared.Events;
 
 public sealed class ReceivedBytesEventArgs(IChannel channel, IConnection connection, byte[] data) : EventArgs, IEvent {
     public Span<byte> Data => data;

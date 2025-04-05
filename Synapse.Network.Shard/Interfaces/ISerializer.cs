@@ -1,4 +1,4 @@
-﻿namespace Synapse.Network.Shard.Interfaces;
+﻿namespace Synapse.Network.Shared.Interfaces;
 
 public interface ISerializer;
 

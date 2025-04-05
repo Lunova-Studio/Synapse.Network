@@ -1,6 +1,6 @@
-﻿using Synapse.Network.Shard.Interfaces;
+﻿using Synapse.Network.Shared.Interfaces;
 
-namespace Synapse.Network.Shard.Events;
+namespace Synapse.Network.Shared.Events;
 
 public sealed class ReceivedObjectEventArgs(IChannel channel, IConnection connection, object value) : EventArgs, IEvent {
     public object Value => value;

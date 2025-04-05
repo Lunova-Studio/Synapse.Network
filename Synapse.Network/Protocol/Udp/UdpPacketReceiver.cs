@@ -1,5 +1,5 @@
 ﻿using Synapse.Network.IO;
-using Synapse.Network.Shard.Events;
+using Synapse.Network.Shared.Events;
 using System.Collections.Concurrent;
 using System.Net;
 using System.Net.Sockets;

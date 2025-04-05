@@ -1,5 +1,5 @@
-﻿using Synapse.Network.Shard.Events;
-using Synapse.Network.Shard.Interfaces;
+﻿using Synapse.Network.Shared.Events;
+using Synapse.Network.Shared.Interfaces;
 
 namespace Synapse.Network;
 

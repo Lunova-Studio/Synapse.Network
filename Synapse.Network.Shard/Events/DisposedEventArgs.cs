@@ -1,6 +1,6 @@
-﻿using Synapse.Network.Shard.Interfaces;
+﻿using Synapse.Network.Shared.Interfaces;
 
-namespace Synapse.Network.Shard.Events;
+namespace Synapse.Network.Shared.Events;
 public sealed class DisposedEventArgs(IConnection connection) : EventArgs, IEvent {
     public IConnection Connection => connection;
     public string EventName => typeof(DisposedEventArgs).Name;

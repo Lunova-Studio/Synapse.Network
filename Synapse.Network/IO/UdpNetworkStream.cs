@@ -1,4 +1,4 @@
-﻿using Synapse.Network.Shard.Utilities;
+﻿using Synapse.Network.Shared.Utilities;
 using System;
 using System.Buffers;
 using System.Collections.Concurrent;

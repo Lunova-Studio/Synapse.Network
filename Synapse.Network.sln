@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.35821.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synapse.Network", "Synapse.Network\Synapse.Network.csproj", "{C3558D8E-CC1A-4C04-8D67-C038F34D391C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synapse.Network.Shard", "Synapse.Network.Shard\Synapse.Network.Shard.csproj", "{3B22D591-73EE-4391-8B3B-77F2B972D1C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synapse.Network.Shared", "Synapse.Network.Shard\Synapse.Network.Shared.csproj", "{3B22D591-73EE-4391-8B3B-77F2B972D1C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synapse.Network.Test", "Synapse.Network.Test\Synapse.Network.Test.csproj", "{2D6AA2F7-745C-429B-AB09-7BAF0BE25776}"
 EndProject

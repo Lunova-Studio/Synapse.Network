@@ -1,4 +1,4 @@
-﻿namespace Synapse.Network.Shard.Utilities;
+﻿namespace Synapse.Network.Shared.Utilities;
 
 public static class TaskUtil {
     public static async Task RunWithTimeout(

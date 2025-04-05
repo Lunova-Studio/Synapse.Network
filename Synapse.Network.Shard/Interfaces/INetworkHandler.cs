@@ -1,6 +1,6 @@
-﻿using Synapse.Network.Shard.Events;
+﻿using Synapse.Network.Shared.Events;
 
-namespace Synapse.Network.Shard.Interfaces;
+namespace Synapse.Network.Shared.Interfaces;
 
 public interface INetworkHandler {
     void OnDisposed(DisposedEventArgs @event);

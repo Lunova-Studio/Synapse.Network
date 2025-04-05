@@ -1,11 +1,10 @@
 ﻿using Synapse.Network.Extensions;
-using Synapse.Network.Shard.Enums;
-using Synapse.Network.Shard.Events;
-using Synapse.Network.Shard.Interfaces;
-using Synapse.Network.Shard.Utilities;
+using Synapse.Network.Shared.Enums;
+using Synapse.Network.Shared.Events;
+using Synapse.Network.Shared.Interfaces;
+using Synapse.Network.Shared.Utilities;
 using System.Collections;
 using System.Collections.Concurrent;
-using System.Reflection;
 
 namespace Synapse.Network;
 
@@ -332,7 +331,7 @@ public class Connection(Stream networkStream) : IConnection, IEnumerable<Channel
     private static object Deserilize(Type type, ISerializer serilizer, byte[] data) {
         var serilizerType = serilizer.GetType();
         var interfaceType = serilizerType.GetInterfaces()
-            .FirstOrDefault(t => 
+            .FirstOrDefault(t =>
                 t.GetGenericTypeDefinition() == typeof(ISerializer<>));
 
         if (interfaceType!.GenericTypeArguments.Length == 1) {

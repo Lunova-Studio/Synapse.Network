@@ -1,4 +1,4 @@
-﻿namespace Synapse.Network.Shard.Enums;
+﻿namespace Synapse.Network.Shared.Enums;
 
 public enum PacketType {
     CreateChannel,

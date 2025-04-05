@@ -1,8 +1,8 @@
-﻿using Synapse.Network.Shard.Interfaces;
+﻿using Synapse.Network.Shared.Interfaces;
 using System.Net;
 using System.Net.Sockets;
 
-namespace Synapse.Network.Shard.Events;
+namespace Synapse.Network.Shared.Events;
 
 public sealed class NewUdpConnectionEventArgs : EventArgs, IEvent {
     public Socket Socket { get; set; }
